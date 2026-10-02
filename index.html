@@ -1,82 +1,39 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Fresh PvP — Règlement officiel du serveur FiveM PvP.">
-<title>Fresh PvP — Règlement</title>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fresh PvP • Règlement</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nosifer&display=swap');
-:root{--red:#ff1e2d;--orange:#ff6a00;--bg:#070707;--card:#101010;--line:#262626;--text:#f4f4f4;--muted:#a3a3a3}
-*{box-sizing:border-box;scroll-behavior:smooth}
-body{margin:0;background:radial-gradient(circle at 80% 0%,#341005 0,transparent 30%),radial-gradient(circle at 10% 20%,#28050a 0,transparent 28%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;overflow-x:hidden}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.08;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:50px 50px}
-nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(7,7,7,.78);backdrop-filter:blur(16px);border-bottom:1px solid #252525}
-.navin{max-width:1150px;margin:auto;height:72px;padding:0 22px;display:flex;align-items:center;justify-content:space-between}
-.brand{font-weight:900;letter-spacing:1px;font-size:20px}.brand span{color:var(--red)}
-.links{display:flex;gap:22px}.links a{color:#bbb;text-decoration:none;font-size:14px;font-weight:700}.links a:hover{color:#fff}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;color:#fff;font-weight:800;border-radius:12px;padding:13px 18px;background:linear-gradient(135deg,var(--red),var(--orange));box-shadow:0 0 25px #ff1e2d33;transition:.25s}.btn:hover{transform:translateY(-2px);box-shadow:0 0 35px #ff6a0055}
-.hero{min-height:650px;padding:145px 22px 80px;display:flex;align-items:center;position:relative}
-.hero-in{max-width:1150px;width:100%;margin:auto}.tag{display:inline-block;border:1px solid #ff3b3b66;background:#ff1e2d12;color:#ff8b8b;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:800;letter-spacing:1px}
-h1{font-size:clamp(50px,9vw,100px);line-height:.9;margin:20px 0 24px;font-weight:900;letter-spacing:-5px}h1 span{color:var(--red);text-shadow:0 0 40px #ff1e2d55}
-.hero p{max-width:650px;color:#aaa;font-size:18px;line-height:1.7}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.ghost{border:1px solid #333;background:#111;box-shadow:none}.ghost:hover{border-color:#555}
-.pumpkin{position:absolute;right:8%;top:145px;font-size:180px;filter:drop-shadow(0 0 40px #ff5a0040);animation:float 4s ease-in-out infinite}
-@keyframes float{50%{transform:translateY(-14px) rotate(2deg)}}
-section{max-width:1150px;margin:auto;padding:75px 22px}.title{font-size:34px;margin:0 0 10px}.sub{color:#888;margin:0 0 30px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,#111,#0b0b0b);border:1px solid var(--line);border-radius:18px;padding:24px;transition:.25s}.card:hover{transform:translateY(-5px);border-color:#ff3b3b66;box-shadow:0 15px 45px #000}
-.icon{font-size:27px}.card h3{margin:13px 0 8px}.card p{color:#999;line-height:1.65;font-size:14px}
-.rules{display:grid;gap:12px}.rule{border:1px solid #242424;background:#0e0e0e;border-radius:14px;padding:18px 20px;cursor:pointer}.rule summary{font-weight:800;list-style:none}.rule summary:after{content:"+";float:right;color:var(--orange);font-size:20px}.rule[open] summary:after{content:"−"}.rule p{color:#aaa;line-height:1.65;margin:14px 0 0;padding-right:20px}
-.sanctions{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.san{padding:20px;border-radius:15px;background:#101010;border:1px solid #242424}.san b{display:block;color:var(--orange);margin-bottom:8px}.san span{color:#aaa;font-size:13px}
-footer{border-top:1px solid #222;padding:35px 22px;color:#777;text-align:center}footer b{color:#fff}
-.reveal{opacity:0;transform:translateY(25px);transition:.7s}.reveal.show{opacity:1;transform:none}
-@media(max-width:800px){.links{display:none}.pumpkin{opacity:.16;right:-20px}.grid,.sanctions{grid-template-columns:1fr}h1{letter-spacing:-3px}}
-</style>
-</head>
-<body>
-<nav><div class="navin"><div class="brand">FRESH <span>PVP</span></div><div class="links"><a href="#reglement">Règlement</a><a href="#pvp">PvP</a><a href="#sanctions">Sanctions</a><a href="#discord">Discord</a></div><a class="btn" href="https://discord.gg/R94hUYzzmS" target="_blank">Rejoindre Discord</a></div></nav>
+:root{--r:#ff2638;--o:#ff6a00;--bg:#090506;--p:#160b0e;--m:#aaa2a4}*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;color:#fff;font:16px Arial,sans-serif;background:radial-gradient(circle at 80% 5%,#42130d,transparent 28%),radial-gradient(circle at 10% 25%,#300912,transparent 30%),#090506}body:before{content:"";position:fixed;inset:0;z-index:-1;opacity:.13;background:linear-gradient(#fff1 1px,transparent 1px),linear-gradient(90deg,#fff1 1px,transparent 1px);background-size:50px 50px}.wrap{width:min(1100px,92%);margin:auto}nav{position:fixed;top:0;left:0;right:0;z-index:5;background:#080506d9;backdrop-filter:blur(14px);border-bottom:1px solid #fff2}.nav{height:68px;display:flex;justify-content:space-between;align-items:center}.brand{font-size:20px;font-weight:900}.brand b,h1 span{color:var(--r)}.links{display:flex;gap:6px}.links a{padding:10px 11px;border-radius:10px;color:#ccc;font-weight:800;font-size:13px}.links a:hover{background:#241114}.discord,.primary{background:linear-gradient(135deg,var(--r),var(--o));color:#fff!important}.hero{min-height:700px;padding:135px 0 70px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center}.badge{display:inline-block;padding:9px 14px;border:1px solid #ff514c99;border-radius:999px;color:#ff9a9a;background:#ff302012;font-weight:900;font-size:12px}h1{font-size:clamp(58px,9vw,105px);line-height:.88;letter-spacing:-6px;margin:25px 0}p{line-height:1.65;color:var(--m)}.hero p{font-size:18px;max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:14px 18px;border-radius:13px;border:1px solid #fff2;font-weight:900}.btn:hover{transform:translateY(-3px)}.orb{width:320px;height:320px;margin:auto;display:grid;place-items:center;font-size:120px;border-radius:45% 55% 52% 48%;background:radial-gradient(circle at 35% 25%,#ffad67,#ff5637 40%,#ed1632 72%,#4b0812);box-shadow:0 0 90px #ff431c44;animation:f 4s ease-in-out infinite}@keyframes f{50%{transform:translateY(-12px) rotate(2deg)}}section{padding:70px 0}.title{font-size:40px;margin:0 0 8px;letter-spacing:-2px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{background:linear-gradient(145deg,#1b0d10ee,#0e090aee);border:1px solid #fff2;border-radius:19px;padding:22px}.card:hover{border-color:#ff39395c;transform:translateY(-3px)}.card h3{margin:8px 0;font-size:20px}.icon{font-size:27px}.rule{margin:10px 0;border:1px solid #fff2;border-radius:15px;background:#fff1;overflow:hidden}.rule summary{padding:17px;cursor:pointer;font-weight:900}.inside{padding:0 18px 18px;color:var(--m);line-height:1.7}.inside li{margin:6px 0}.tablewrap{overflow:auto;border:1px solid #fff2;border-radius:16px}.table{width:100%;min-width:600px;border-collapse:collapse}.table th,.table td{padding:13px;border-bottom:1px solid #fff2;text-align:left}.ok{color:#71e19b}.no{color:#ff7777}.sanctions{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.san{padding:18px;border:1px solid #fff2;border-radius:15px;background:#140a0d}.san small{display:block;color:var(--m);margin-top:6px}.cta{padding:35px;border:1px solid #ff453c55;border-radius:22px;background:#ff302012;display:flex;justify-content:space-between;align-items:center;gap:20px}footer{border-top:1px solid #fff2;padding:32px;text-align:center;color:#777}@media(max-width:800px){.hero{grid-template-columns:1fr}.orb{width:240px;height:240px;font-size:90px}.grid{grid-template-columns:1fr}.sanctions{grid-template-columns:repeat(2,1fr)}.links a:not(.discord){display:none}h1{letter-spacing:-4px}}@media(max-width:480px){.sanctions{grid-template-columns:1fr}.title{font-size:34px}}
+</style></head><body>
+<nav><div class="wrap nav"><a class="brand" href="#accueil">FRESH <b>PVP</b></a><div class="links"><a href="#guide">Guide</a><a href="#reglement">Règlement</a><a href="#pvp">PvP</a><a href="#sanctions">Sanctions</a><a class="discord" href="https://discord.gg/R94hUYzzmS" target="_blank">💬 Discord</a></div></div></nav>
 
-<header class="hero"><div class="hero-in">
-<div class="tag">🎃 SAISON HALLOWEEN • FRESH PVP</div>
-<h1>FRESH <span>PVP</span></h1>
-<p>Le règlement officiel du serveur. Lis les règles avant de jouer afin de garantir des affrontements propres, fair-play et agréables pour toute la communauté.</p>
-<div class="actions"><a class="btn" href="#reglement">📜 Lire le règlement</a><a class="btn ghost" href="https://discord.gg/R94hUYzzmS" target="_blank">💬 Discord officiel</a></div>
-</div><div class="pumpkin">🎃</div></header>
+<header class="wrap hero" id="accueil"><div><div class="badge">🎃 SAISON HALLOWEEN • FRESH PVP</div><h1>FRESH <span>PVP</span></h1><p>Le règlement officiel et le guide du serveur. Lis les règles avant de jouer afin de garantir des affrontements propres, fair-play et agréables.</p><div class="actions"><a class="btn primary" href="#reglement">📜 Lire le règlement</a><a class="btn" href="https://discord.gg/R94hUYzzmS" target="_blank">💬 Discord officiel</a></div></div><div class="orb">🎃</div></header>
 
-<section id="reglement" class="reveal"><h2 class="title">📜 Règlement général</h2><p class="sub">Les règles essentielles à respecter sur Fresh PvP.</p>
-<div class="rules">
-<details class="rule"><summary>1. Respect et comportement</summary><p>Le respect entre joueurs est obligatoire. Les insultes graves, menaces, propos discriminatoires, harcèlement et provocations répétées peuvent entraîner une sanction.</p></details>
-<details class="rule"><summary>2. Triche et logiciels interdits</summary><p>Tout cheat, mod menu, injecteur, macro abusive, logiciel donnant un avantage injuste ou modification interdite du client est prohibé. Les sanctions peuvent être immédiates.</p></details>
-<details class="rule"><summary>3. Exploitation de bugs</summary><p>L'utilisation volontaire d'un bug ou d'une faille pour obtenir un avantage est interdite. Signale le problème au staff au lieu de l'exploiter.</p></details>
-<details class="rule"><summary>4. Contournement de sanction</summary><p>Contourner un ban, mute ou autre sanction avec un autre compte est interdit. Contacte le staff via les moyens prévus sur Discord.</p></details>
-<details class="rule"><summary>5. Publicité</summary><p>La publicité pour un autre serveur, service ou communauté sans autorisation du staff est interdite, sur le serveur comme dans les espaces communautaires associés.</p></details>
-<details class="rule"><summary>6. Décisions du staff</summary><p>Les membres du staff doivent être respectés. En cas de désaccord, utilise un ticket ou le système de réclamation prévu plutôt que de perturber une scène ou un salon.</p></details>
-</div></section>
+<section id="guide"><div class="wrap"><h2 class="title">📖 Guide du joueur</h2><p>Les principales commandes et fonctionnalités.</p><div class="grid">
+<div class="card"><div class="icon">🔄</div><h3>/trade</h3><p>Échange sécurisé d'armes avec un autre joueur. Utilise <b>/trade [ID Temporaire]</b>, dépose les armes puis valide. La différence de valeur est calculée en Coins.</p><p><b>⚠️ Tous les échanges doivent passer par /trade. Les ventes via PayPal ou autre moyen sont interdites.</b></p></div>
+<div class="card"><div class="icon">👤</div><h3>ID Temporaire</h3><p>Affiché en haut à droite. Il sert notamment pour le trade, identifier un joueur et certaines commandes.</p></div>
+<div class="card"><div class="icon">🎮</div><h3>Commandes</h3><ul><li><b>/crew</b> — Crew</li><li><b>/radiopos</b> — radio automatique</li><li><b>/lobby</b> — retour lobby</li><li><b>/leavegungame</b> — quitter GunGame</li><li><b>/leaveduel</b> — quitter Duel</li><li><b>F6</b> — options serveur</li><li><b>F1</b> — boutique</li></ul></div>
+<div class="card"><div class="icon">🎯</div><h3>AimLab</h3><p>Entraîne ton aim et teste les armes avant de combattre.</p></div></div></div></section>
 
-<section id="pvp" class="reveal"><h2 class="title">⚔️ Règles PvP</h2><p class="sub">Les comportements qui nuisent aux combats et à l'expérience de jeu.</p>
-<div class="grid">
-<div class="card"><div class="icon">🎯</div><h3>RDM</h3><p>Tuer un joueur sans raison valable ou sans contexte de jeu est interdit.</p></div>
-<div class="card"><div class="icon">🚗</div><h3>VDM</h3><p>Utiliser volontairement un véhicule comme arme contre des joueurs sans contexte est interdit.</p></div>
-<div class="card"><div class="icon">💀</div><h3>Spawnkill</h3><p>Attendre un joueur à son point de réapparition pour le tuer en boucle est interdit.</p></div>
-<div class="card"><div class="icon">🔁</div><h3>Revenge Kill</h3><p>Revenir immédiatement pour se venger après une élimination, lorsque les règles du serveur l'interdisent, n'est pas autorisé.</p></div>
-<div class="card"><div class="icon">🤝</div><h3>Fair-play</h3><p>Pas de comportement volontairement toxique destiné à gâcher les parties des autres joueurs.</p></div>
-<div class="card"><div class="icon">🛡️</div><h3>Combat propre</h3><p>Les glitchs, abus de mécaniques et méthodes donnant un avantage non prévu sont interdits.</p></div>
-</div></section>
+<section id="reglement"><div class="wrap"><h2 class="title">📜 Règlement général</h2><p>En rejoignant Fresh PvP, tu acceptes les règles. L'ignorance du règlement n'est pas une excuse.</p><div class="grid">
+<div class="card"><div class="icon">🤝</div><h3>Respect</h3><p>Respecte les joueurs et le staff. Les insultes, menaces et provocations répétées ou personnelles peuvent être sanctionnées.</p></div>
+<div class="card"><div class="icon">🛡️</div><h3>Fair-play</h3><p>Les combats doivent être gagnés grâce au niveau de jeu, pas grâce à un comportement abusif ou déloyal.</p></div>
+<div class="card"><div class="icon">🐛</div><h3>Exploitation de bugs</h3><p>Toute utilisation volontaire d'un bug, élément de map ou mécanique non prévue pour obtenir un avantage injuste est interdite.</p></div>
+<div class="card"><div class="icon">👥</div><h3>Teaming</h3><p>Le teaming dans les modes prévus pour être joués en solo est interdit. Saboter volontairement une partie pour nuire est également interdit.</p></div></div></div></section>
 
-<section id="sanctions" class="reveal"><h2 class="title">⚖️ Sanctions</h2><p class="sub">La sanction dépend de la gravité, de la récidive et du contexte.</p>
-<div class="sanctions">
-<div class="san"><b>⚠️ Avertissement</b><span>Rappel à l'ordre ou avertissement écrit.</span></div>
-<div class="san"><b>🔇 Mute</b><span>Restriction temporaire de communication.</span></div>
-<div class="san"><b>🥾 Kick</b><span>Exclusion temporaire de la session.</span></div>
-<div class="san"><b>🔨 Ban</b><span>Exclusion temporaire ou permanente selon les faits.</span></div>
-</div></section>
+<section id="pvp"><div class="wrap"><h2 class="title">⚔️ PvP & Redzone</h2><div class="rule"><details open><summary>⚔️ Règles PvP</summary><div class="inside">Les combats doivent rester fair-play. Les bugs, éléments de map et mécaniques non prévues ne peuvent pas être utilisés pour obtenir un avantage. Les provocations sont tolérées dans une certaine limite, mais pas lorsqu'elles deviennent insultantes, répétitives ou personnelles.</div></details></div>
+<div class="rule"><details><summary>🔴 Redzones</summary><div class="inside"><ul><li>Les Redzones sont des zones PvP accessibles en véhicule ; une fois sur place, les joueurs descendent pour combattre.</li><li><b>Les TOPS sont strictement interdits.</b></li><li>Interdit de rester en véhicule pour éviter volontairement le combat.</li><li>Chaque Crew joue uniquement avec ses propres membres.</li></ul></div></details></div>
+<div class="rule"><details><summary>👕 GPB & T-shirts personnalisés</summary><div class="inside">Les GPB personnels, t-shirts personnels et t-shirts de Crew appartiennent à la personne ou au Crew qui les a payés. Il est interdit de les porter sans autorisation. Sanctions progressives : warn oral → kick IG → bannissement.</div></details></div>
+<div class="rule"><details><summary>🚫 Bras invisibles</summary><div class="inside">Les bras invisibles sont strictement interdits, notamment lorsqu'une tenue est volontairement modifiée pour rendre les bras invisibles et procurer un avantage en combat.</div></details></div></div></section>
 
-<section id="discord" class="reveal"><div class="card" style="text-align:center;padding:45px"><div style="font-size:45px">🎃</div><h2>Rejoins la communauté Fresh PvP</h2><p>Retrouve les annonces, tickets, informations et actualités du serveur sur Discord.</p><a class="btn" href="https://discord.gg/R94hUYzzmS" target="_blank">Rejoindre le Discord</a></div></section>
+<section><div class="wrap"><h2 class="title">💻 Packs graphiques</h2><p>En cas de doute sur un mod ou un pack, ouvre un ticket Discord.</p><div class="tablewrap"><table class="table"><tr><th>Autorisé</th><th>Refusé</th></tr>
+<tr><td class="ok">✓ No particules</td><td class="no">✕ Fast Run</td></tr><tr><td class="ok">✓ No water</td><td class="no">✕ No bush</td></tr><tr><td class="ok">✓ No Night</td><td class="no">✕ Lock .rpf</td></tr><tr><td class="ok">✓ No recoil</td><td class="no">✕ Ped Light</td></tr><tr><td class="ok">✓ Custom road</td><td class="no">✕ No Props</td></tr><tr><td class="ok">✓ Low Texture</td><td class="no">✕ Damage Boosts</td></tr><tr><td class="ok">✓ Tracer</td><td class="no">✕ No / fast reload</td></tr><tr><td class="ok">✓ No Pixel</td><td class="no">✕ Hitbox modifier</td></tr><tr><td class="ok">✓ Low montagne roche</td><td class="no">✕ Rapid fire</td></tr><tr><td class="ok">✓ Map emplacement</td><td class="no">✕ Godmode .Rpf</td></tr><tr><td class="ok">✓ Blood effect</td><td class="no">✕ Fast Strafe</td></tr><tr><td class="ok">✓ Kill effect</td><td class="no">✕ Cheat</td></tr><tr><td class="ok">✓ Crosshair / xhair</td><td></td></tr><tr><td class="ok">✓ Low ped</td><td></td></tr><tr><td class="ok">✓ Pack son</td><td></td></tr><tr><td class="ok">✓ Replace vêtement</td><td></td></tr></table></div></div></section>
 
-<footer>© 2026 <b>Fresh PvP</b> — Règlement officiel • Créé pour la communauté FiveM</footer>
-<script>
-const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));
-</script>
-</body>
-</html> 
+<section><div class="wrap"><h2 class="title">👤 Comptes joueurs</h2><div class="card"><p>Chaque joueur est responsable de son compte et de son ordinateur. Partage, prêt, vente ou achat de compte interdits. Les excuses du type « c'était mon frère » ou « quelqu'un d'autre jouait » ne sont pas prises en compte. Contourner une sanction avec un second compte, un VPN ou autre procédé destiné à masquer son identité entraîne un <b>bannissement définitif de l'ensemble des comptes concernés</b>.</p></div></div></section>
+
+<section><div class="wrap"><h2 class="title">💬 Discord & Tickets</h2><div class="grid"><div class="card"><div class="icon">💬</div><h3>Discord officiel</h3><p>Respect, pas de spam, contenus choquants, publicité non autorisée, liens malveillants ou mentions abusives.</p><a class="btn primary" href="https://discord.gg/R94hUYzzmS" target="_blank">Rejoindre le Discord</a></div><div class="card"><div class="icon">📩</div><h3>Support</h3><p>Explique clairement ton problème et donne les informations utiles. Le spam de tickets, faux signalements ou demandes répétitives peuvent être sanctionnés. En cas de désaccord, demande un réexamen auprès d'un responsable.</p></div></div></div></section>
+
+<section><div class="wrap"><h2 class="title">💳 Échanges & argent réel</h2><div class="grid"><div class="card"><div class="icon">🚫</div><h3>Vente contre argent réel</h3><p>La vente ou tentative de vente d'armes, objets, Coins ou autres biens du serveur contre de l'argent réel (PayPal, virement, Paysafecard, crypto ou autre moyen) est strictement interdite.</p><p><b>Une tentative entraîne un bannissement définitif sans avertissement.</b></p></div><div class="card"><div class="icon">🔄</div><h3>Trade obligatoire</h3><p><b>/trade</b> est le seul moyen autorisé pour échanger. La différence en Coins est une mécanique normale et ne doit pas être contournée. Le staff ne réalise pas d'échange à la place des joueurs pour éviter cette différence.</p></div></div></div></section>
+
+<section id="sanctions"><div class="wrap"><h2 class="title">🚨 Sanctions</h2><p>Les sanctions sont étudiées individuellement selon la gravité, les antécédents, les preuves et le comportement général. Elles peuvent être allégées ou aggravées et ne sont pas systématiquement précédées d'un avertissement.</p><div class="sanctions"><div class="san"><b>⚠️ Warn oral</b><small>Rappel à l'ordre.</small></div><div class="san"><b>👢 Kick IG</b><small>Exclusion du serveur.</small></div><div class="san"><b>🔇 Sanction Discord</b><small>Selon les faits.</small></div><div class="san"><b>🔨 Bannissement</b><small>Selon la gravité et les preuves.</small></div></div><div class="card" style="margin-top:16px"><h3>📹 Preuves</h3><p>Vidéos, captures d'écran, logs du serveur et enregistrements des systèmes de modération peuvent être utilisés. Toute falsification de preuve ou tentative de tromper le staff peut entraîner une sanction supplémentaire.</p></div></div></section>
+
+<section><div class="wrap"><div class="cta"><div><h2>🎃 Une question ?</h2><p>Ouvre un ticket sur le Discord officiel de Fresh PvP.</p></div><a class="btn primary" href="https://discord.gg/R94hUYzzmS" target="_blank">💬 Discord</a></div></div></section>
+<footer>© Fresh PvP • Règlement officiel • Saison Halloween 🎃</footer>
+</body></html>
