@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Fresh PvP — Règlement officiel du serveur FiveM PvP.">
+<title>Fresh PvP — Règlement</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Nosifer&display=swap');
+:root{--red:#ff1e2d;--orange:#ff6a00;--bg:#070707;--card:#101010;--line:#262626;--text:#f4f4f4;--muted:#a3a3a3}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 80% 0%,#341005 0,transparent 30%),radial-gradient(circle at 10% 20%,#28050a 0,transparent 28%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.08;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:50px 50px}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(7,7,7,.78);backdrop-filter:blur(16px);border-bottom:1px solid #252525}
+.navin{max-width:1150px;margin:auto;height:72px;padding:0 22px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:900;letter-spacing:1px;font-size:20px}.brand span{color:var(--red)}
+.links{display:flex;gap:22px}.links a{color:#bbb;text-decoration:none;font-size:14px;font-weight:700}.links a:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;color:#fff;font-weight:800;border-radius:12px;padding:13px 18px;background:linear-gradient(135deg,var(--red),var(--orange));box-shadow:0 0 25px #ff1e2d33;transition:.25s}.btn:hover{transform:translateY(-2px);box-shadow:0 0 35px #ff6a0055}
+.hero{min-height:650px;padding:145px 22px 80px;display:flex;align-items:center;position:relative}
+.hero-in{max-width:1150px;width:100%;margin:auto}.tag{display:inline-block;border:1px solid #ff3b3b66;background:#ff1e2d12;color:#ff8b8b;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:800;letter-spacing:1px}
+h1{font-size:clamp(50px,9vw,100px);line-height:.9;margin:20px 0 24px;font-weight:900;letter-spacing:-5px}h1 span{color:var(--red);text-shadow:0 0 40px #ff1e2d55}
+.hero p{max-width:650px;color:#aaa;font-size:18px;line-height:1.7}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.ghost{border:1px solid #333;background:#111;box-shadow:none}.ghost:hover{border-color:#555}
+.pumpkin{position:absolute;right:8%;top:145px;font-size:180px;filter:drop-shadow(0 0 40px #ff5a0040);animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-14px) rotate(2deg)}}
+section{max-width:1150px;margin:auto;padding:75px 22px}.title{font-size:34px;margin:0 0 10px}.sub{color:#888;margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,#111,#0b0b0b);border:1px solid var(--line);border-radius:18px;padding:24px;transition:.25s}.card:hover{transform:translateY(-5px);border-color:#ff3b3b66;box-shadow:0 15px 45px #000}
+.icon{font-size:27px}.card h3{margin:13px 0 8px}.card p{color:#999;line-height:1.65;font-size:14px}
+.rules{display:grid;gap:12px}.rule{border:1px solid #242424;background:#0e0e0e;border-radius:14px;padding:18px 20px;cursor:pointer}.rule summary{font-weight:800;list-style:none}.rule summary:after{content:"+";float:right;color:var(--orange);font-size:20px}.rule[open] summary:after{content:"−"}.rule p{color:#aaa;line-height:1.65;margin:14px 0 0;padding-right:20px}
+.sanctions{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.san{padding:20px;border-radius:15px;background:#101010;border:1px solid #242424}.san b{display:block;color:var(--orange);margin-bottom:8px}.san span{color:#aaa;font-size:13px}
+footer{border-top:1px solid #222;padding:35px 22px;color:#777;text-align:center}footer b{color:#fff}
+.reveal{opacity:0;transform:translateY(25px);transition:.7s}.reveal.show{opacity:1;transform:none}
+@media(max-width:800px){.links{display:none}.pumpkin{opacity:.16;right:-20px}.grid,.sanctions{grid-template-columns:1fr}h1{letter-spacing:-3px}}
+</style>
+</head>
+<body>
+<nav><div class="navin"><div class="brand">FRESH <span>PVP</span></div><div class="links"><a href="#reglement">Règlement</a><a href="#pvp">PvP</a><a href="#sanctions">Sanctions</a><a href="#discord">Discord</a></div><a class="btn" href="https://discord.gg/R94hUYzzmS" target="_blank">Rejoindre Discord</a></div></nav>
+
+<header class="hero"><div class="hero-in">
+<div class="tag">🎃 SAISON HALLOWEEN • FRESH PVP</div>
+<h1>FRESH <span>PVP</span></h1>
+<p>Le règlement officiel du serveur. Lis les règles avant de jouer afin de garantir des affrontements propres, fair-play et agréables pour toute la communauté.</p>
+<div class="actions"><a class="btn" href="#reglement">📜 Lire le règlement</a><a class="btn ghost" href="https://discord.gg/R94hUYzzmS" target="_blank">💬 Discord officiel</a></div>
+</div><div class="pumpkin">🎃</div></header>
+
+<section id="reglement" class="reveal"><h2 class="title">📜 Règlement général</h2><p class="sub">Les règles essentielles à respecter sur Fresh PvP.</p>
+<div class="rules">
+<details class="rule"><summary>1. Respect et comportement</summary><p>Le respect entre joueurs est obligatoire. Les insultes graves, menaces, propos discriminatoires, harcèlement et provocations répétées peuvent entraîner une sanction.</p></details>
+<details class="rule"><summary>2. Triche et logiciels interdits</summary><p>Tout cheat, mod menu, injecteur, macro abusive, logiciel donnant un avantage injuste ou modification interdite du client est prohibé. Les sanctions peuvent être immédiates.</p></details>
+<details class="rule"><summary>3. Exploitation de bugs</summary><p>L'utilisation volontaire d'un bug ou d'une faille pour obtenir un avantage est interdite. Signale le problème au staff au lieu de l'exploiter.</p></details>
+<details class="rule"><summary>4. Contournement de sanction</summary><p>Contourner un ban, mute ou autre sanction avec un autre compte est interdit. Contacte le staff via les moyens prévus sur Discord.</p></details>
+<details class="rule"><summary>5. Publicité</summary><p>La publicité pour un autre serveur, service ou communauté sans autorisation du staff est interdite, sur le serveur comme dans les espaces communautaires associés.</p></details>
+<details class="rule"><summary>6. Décisions du staff</summary><p>Les membres du staff doivent être respectés. En cas de désaccord, utilise un ticket ou le système de réclamation prévu plutôt que de perturber une scène ou un salon.</p></details>
+</div></section>
+
+<section id="pvp" class="reveal"><h2 class="title">⚔️ Règles PvP</h2><p class="sub">Les comportements qui nuisent aux combats et à l'expérience de jeu.</p>
+<div class="grid">
+<div class="card"><div class="icon">🎯</div><h3>RDM</h3><p>Tuer un joueur sans raison valable ou sans contexte de jeu est interdit.</p></div>
+<div class="card"><div class="icon">🚗</div><h3>VDM</h3><p>Utiliser volontairement un véhicule comme arme contre des joueurs sans contexte est interdit.</p></div>
+<div class="card"><div class="icon">💀</div><h3>Spawnkill</h3><p>Attendre un joueur à son point de réapparition pour le tuer en boucle est interdit.</p></div>
+<div class="card"><div class="icon">🔁</div><h3>Revenge Kill</h3><p>Revenir immédiatement pour se venger après une élimination, lorsque les règles du serveur l'interdisent, n'est pas autorisé.</p></div>
+<div class="card"><div class="icon">🤝</div><h3>Fair-play</h3><p>Pas de comportement volontairement toxique destiné à gâcher les parties des autres joueurs.</p></div>
+<div class="card"><div class="icon">🛡️</div><h3>Combat propre</h3><p>Les glitchs, abus de mécaniques et méthodes donnant un avantage non prévu sont interdits.</p></div>
+</div></section>
+
+<section id="sanctions" class="reveal"><h2 class="title">⚖️ Sanctions</h2><p class="sub">La sanction dépend de la gravité, de la récidive et du contexte.</p>
+<div class="sanctions">
+<div class="san"><b>⚠️ Avertissement</b><span>Rappel à l'ordre ou avertissement écrit.</span></div>
+<div class="san"><b>🔇 Mute</b><span>Restriction temporaire de communication.</span></div>
+<div class="san"><b>🥾 Kick</b><span>Exclusion temporaire de la session.</span></div>
+<div class="san"><b>🔨 Ban</b><span>Exclusion temporaire ou permanente selon les faits.</span></div>
+</div></section>
+
+<section id="discord" class="reveal"><div class="card" style="text-align:center;padding:45px"><div style="font-size:45px">🎃</div><h2>Rejoins la communauté Fresh PvP</h2><p>Retrouve les annonces, tickets, informations et actualités du serveur sur Discord.</p><a class="btn" href="https://discord.gg/R94hUYzzmS" target="_blank">Rejoindre le Discord</a></div></section>
+
+<footer>© 2026 <b>Fresh PvP</b> — Règlement officiel • Créé pour la communauté FiveM</footer>
+<script>
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));
+</script>
+</body>
+</html>
